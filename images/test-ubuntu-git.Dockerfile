@@ -2,7 +2,7 @@
 # Consumed by actions/checkout CI/CD validation workflows.
 
 FROM ubuntu:latest
-
+test-ubunt-git.dockerfile
 RUN apt update
 RUN apt install -y git
 
